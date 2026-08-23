@@ -1,7 +1,6 @@
 import {
   ChevronRight,
-  Github,
-  Linkedin,
+  Folder,
   Mail,
   MapPin,
 } from "lucide-react";
@@ -67,7 +66,7 @@ export default function ContactSection() {
               href="#"
               className="flex min-h-[48px] items-center justify-center gap-2 rounded-xl border border-white/[0.08] text-xs font-bold text-slate-400"
             >
-              <Linkedin className="size-4" />
+              <Folder className="size-4" />
               LinkedIn
             </a>
 
@@ -75,8 +74,8 @@ export default function ContactSection() {
               href="#"
               className="flex min-h-[48px] items-center justify-center gap-2 rounded-xl border border-white/[0.08] text-xs font-bold text-slate-400"
             >
-              <Github className="size-4" />
-              GitHub
+              <Folder className="size-4" />
+              Portfolio
             </a>
           </div>
 
