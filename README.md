@@ -30,8 +30,6 @@ My current technical focus includes:
 - PostgreSQL
 - REST APIs
 - SQLAlchemy
-- React
-- TypeScript
 - BACnet
 - HVAC controls
 - Networking
@@ -84,12 +82,15 @@ Before focusing heavily on software engineering, I built my foundation in the HV
 My experience includes:
 
 ### HVAC Installation
+
 Working with equipment installation, mechanical systems, ductwork, and jobsite coordination.
 
 ### Residential Service
+
 Diagnosing electrical, mechanical, and HVAC equipment problems in residential systems.
 
 ### Commercial Service
+
 Working with larger HVAC systems such as:
 
 - Rooftop units
@@ -99,6 +100,7 @@ Working with larger HVAC systems such as:
 - Heating and cooling equipment
 
 ### Industrial Controls / Building Automation
+
 Working with:
 
 - BACnet/IP
@@ -229,3 +231,4 @@ Approve Payment
 Capture Payment
   ↓
 Booking Successfully Paid
+```
