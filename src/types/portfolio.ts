@@ -81,6 +81,7 @@ export interface Project {
   contribution: string;
   result: string;
   stack: string[];
+  link: string;
 }
 
 export interface Language {

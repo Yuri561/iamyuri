@@ -25,51 +25,74 @@ export const projects: Project[] = [
       "Render",
       "Vercel",
     ],
+    link: "https://www.neeslearning.com"
   },
+{
+  id: "02",
+
+  title: "CasaPro",
+
+  subtitle: "Smart Home Inventory Management Platform",
+
+  category: "Full-Stack Web Application",
+
+  description:
+    "A modern home inventory management platform that helps users organize, track, and protect household belongings, appliances, electronics, furniture, and important ownership records from a centralized dashboard.",
+
+  problem:
+    "Homeowners often lack a centralized way to document what they own, organize household assets, monitor inventory, and maintain records that may be needed for insurance, budgeting, replacement, or property management.",
+
+  contribution:
+    "Designed and developed the application experience including inventory organization, category management, dashboard workflows, user profiles, authentication flows, reporting concepts, responsive interfaces, and the overall product architecture.",
+
+  result:
+    "Built a responsive inventory management platform that transforms scattered household records into an organized digital system with categorized assets, dashboard visibility, reporting capabilities, and streamlined inventory workflows.",
+
+  stack: [
+    "React",
+    "TypeScript",
+    "Vite",
+    "Tailwind CSS",
+    "REST API",
+    "Responsive Design",
+  ],
+
+  link: "https://casapro-pink.vercel.app",
+},
 
   {
-    id: "02",
-    title: "F.A.T.E.",
-    subtitle: "File Arrangement & Transfer Engine",
-    category: "Desktop Automation",
-    description:
-      "Desktop application for categorizing, organizing and transferring files through a system dashboard.",
-    problem:
-      "Large file collections become difficult to organize manually.",
-    contribution:
-      "Desktop architecture, file categories, vault structure, transfers and system events.",
-    result:
-      "Built a desktop automation foundation using React, Tauri and Rust.",
-    stack: [
-      "React",
-      "TypeScript",
-      "Tauri",
-      "Rust",
-    ],
-  },
+  id: "03",
 
-  {
-    id: "03",
-    title: "Y1 Technologies",
-    subtitle: "Smart Controls Lab",
-    category: "Automation / IoT",
-    description:
-      "Personal automation lab combining Python, Raspberry Pi, sensors and intelligent control concepts.",
-    problem:
-      "Explore how software can interact directly with physical environments.",
-    contribution:
-      "System architecture, controls experimentation and Python automation.",
-    result:
-      "Created a platform for continuing automation and smart-system development.",
-    stack: [
-      "Python",
-      "Raspberry Pi",
-      "BACnet",
-      "IoT",
-      "Automation",
-    ],
-  },
+  title: "DHMS International",
 
+  subtitle: "African Fashion, Beauty & Lifestyle Boutique",
+
+  category: "E-Commerce / Retail Web Application",
+
+  description:
+    "A responsive boutique e-commerce website for DHMS International in Fredericksburg, Virginia, showcasing African fashion, beauty, hair care, body products, jewelry, accessories, and in-store exclusive inventory.",
+
+  problem:
+    "DHMS International needed a stronger digital storefront that could present its culturally focused product catalog, support online product discovery, highlight in-store-only merchandise, and give customers a clear path to shop, contact the business, and visit the physical location.",
+
+  contribution:
+    "Designed and developed the customer-facing shopping experience, including responsive navigation, product collections, promotional sections, in-store pickup messaging, category discovery, testimonials, contact information, and retail-focused user flows.",
+
+  result:
+    "Delivered a modern, mobile-friendly storefront that gives DHMS International a professional online presence while connecting its physical boutique experience with digital product discovery and customer engagement.",
+
+  stack: [
+    "React",
+    "TypeScript",
+    "Vite",
+    "Responsive Design",
+    "E-Commerce UI",
+    "Product Catalog",
+    "Retail UX",
+  ],
+
+  link: "https://www.dhmsint.com",
+},
   {
     id: "04",
     title: "Ready My Voice",
@@ -88,6 +111,7 @@ export const projects: Project[] = [
       "CustomTkinter",
       "Desktop UI",
     ],
+    link: "wwww.neeslearning.com"
   },
 
   {
@@ -108,6 +132,7 @@ export const projects: Project[] = [
       "TypeScript",
       "Vercel",
     ],
+    link: "https://www.perlicatoursandtravel.com/"
   },
 
   {
@@ -128,5 +153,6 @@ export const projects: Project[] = [
       "TypeScript",
       "Tailwind CSS",
     ],
+    link: "https://www.perlicatoursandtravel.com/"
   },
 ];

@@ -1,6 +1,3 @@
-import {
-  ExternalLink,
-} from "lucide-react";
 
 import type { Project } from "../../types/portfolio";
 
@@ -69,13 +66,16 @@ export default function ProjectDetails({
           )}
         </div>
 
-        <a
-          href="#"
-          className="mt-7 inline-flex items-center gap-2 text-xs font-black text-cyan-400"
-        >
-          View Case Study
-          <ExternalLink className="size-3.5" />
-        </a>
+        {project.link && (
+    <a
+      href={project.link}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="mt-7 inline-flex items-center gap-2 text-xs font-black text-cyan-400"
+    >
+      View Live Project ↗
+    </a>
+  )}
       </div>
     </div>
   );
