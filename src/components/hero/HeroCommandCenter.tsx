@@ -10,7 +10,6 @@ import {
 } from "framer-motion";
 
 import {
-  FormEvent,
   useEffect,
   useRef,
   useState,

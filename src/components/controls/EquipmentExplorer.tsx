@@ -11,7 +11,6 @@ import {
   RadioTower,
   RefreshCcw,
   Server,
-  ShieldCheck,
   Thermometer,
   Waves,
   X,

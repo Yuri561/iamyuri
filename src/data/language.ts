@@ -1,6 +1,6 @@
 import type {
   CurrentGoal,
-  Language,
+  
 } from "../types/portfolio";
 
 export const languages = [

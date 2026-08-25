@@ -1,7 +1,6 @@
 import {
   Activity,
   BadgeCheck,
-  BriefcaseBusiness,
   CheckCircle2,
   CircleDot,
   Cpu,
