@@ -1,5 +1,5 @@
 import AboutSection from "./components/about/AboutSection";
-import BrazilSection from "./components/brazil/BrazilSection";
+// import BrazilSection from "./components/brazil/BrazilSection";
 import CurrentlyBuilding from "./components/building/CurrentlyBuilding";
 import DiagnosticQuiz from "./components/challenge/DiagnosticQuiz";
 import ContactSection from "./components/contact/ContactSection";
@@ -43,8 +43,8 @@ export default function App() {
       <LanguagesSection />
 
       <CurrentlyBuilding />
-
-      <BrazilSection />
+{/* 
+      <BrazilSection/> */}
 
       <ContactSection />
 

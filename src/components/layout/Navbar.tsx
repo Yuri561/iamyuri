@@ -60,7 +60,7 @@ export default function Navbar() {
           </a>
 
           <a
-            href="/resume.pdf"
+            href="/myres.pdf"
             className="inline-flex h-10 items-center gap-2 rounded-xl bg-white px-4 text-xs font-black text-[#071014]"
           >
             <Download className="size-3.5" />

@@ -27,6 +27,26 @@ export const projects: Project[] = [
     ],
     link: "https://www.neeslearning.com"
   },
+  {
+    id: "05",
+    title: "Perlica Tours & Travel",
+    subtitle: "Travel Experience Platform",
+    category: "Web Experience",
+    description:
+      "Interactive travel website with package discovery, visual experiences and search tools.",
+    problem:
+      "Travel customers need engaging ways to discover destinations.",
+    contribution:
+      "Frontend architecture, interactive galleries and responsive design.",
+    result:
+      "Built a modern web experience for travel discovery.",
+    stack: [
+      "React",
+      "TypeScript",
+      "Vercel",
+    ],
+    link: "https://www.perlicatoursandtravel.com/"
+  },
 {
   id: "02",
 
@@ -60,6 +80,26 @@ export const projects: Project[] = [
   link: "https://casapro-pink.vercel.app",
 },
 
+{
+  id: "04",
+  title: "Ready My Voice",
+  subtitle: "Creative Desktop Workspace",
+  category: "Desktop Software",
+  description:
+    "Desktop workspace concept combining projects, media management and voice workflows.",
+  problem:
+    "Creative workflows often live across disconnected applications.",
+  contribution:
+    "Desktop UI architecture and project workspace design.",
+  result:
+    "Developed a unified creative desktop workspace concept.",
+  stack: [
+    "Python",
+    "CustomTkinter",
+    "Desktop UI",
+  ],
+  link: "https://readymyvoice.vercel.app/"
+},
   {
   id: "03",
 
@@ -93,47 +133,7 @@ export const projects: Project[] = [
 
   link: "https://www.dhmsint.com",
 },
-  {
-    id: "04",
-    title: "Ready My Voice",
-    subtitle: "Creative Desktop Workspace",
-    category: "Desktop Software",
-    description:
-      "Desktop workspace concept combining projects, media management and voice workflows.",
-    problem:
-      "Creative workflows often live across disconnected applications.",
-    contribution:
-      "Desktop UI architecture and project workspace design.",
-    result:
-      "Developed a unified creative desktop workspace concept.",
-    stack: [
-      "Python",
-      "CustomTkinter",
-      "Desktop UI",
-    ],
-    link: "wwww.neeslearning.com"
-  },
 
-  {
-    id: "05",
-    title: "Perlica Tours & Travel",
-    subtitle: "Travel Experience Platform",
-    category: "Web Experience",
-    description:
-      "Interactive travel website with package discovery, visual experiences and search tools.",
-    problem:
-      "Travel customers need engaging ways to discover destinations.",
-    contribution:
-      "Frontend architecture, interactive galleries and responsive design.",
-    result:
-      "Built a modern web experience for travel discovery.",
-    stack: [
-      "React",
-      "TypeScript",
-      "Vercel",
-    ],
-    link: "https://www.perlicatoursandtravel.com/"
-  },
 
   {
     id: "06",

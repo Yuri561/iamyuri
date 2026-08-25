@@ -3,30 +3,36 @@ import type {
   Language,
 } from "../types/portfolio";
 
-export const languages: Language[] = [
+export const languages = [
   {
-    flag: "🇺🇸",
     language: "English",
+    flag: "🇺🇸",
     level: "Professional",
     description:
-      "Daily technical, professional and interpersonal communication.",
+      "Primary professional language used across engineering, software development, documentation, and technical communication.",
   },
   {
-    flag: "🇭🇹",
     language: "Haitian Creole",
+    flag: "🇭🇹",
     level: "Native",
     description:
-      "Native communication and cultural fluency.",
+      "Native language with full conversational and cultural fluency.",
   },
   {
-    flag: "🇧🇷",
+    language: "French",
+    flag: "🇫🇷",
+    level: "Professional",
+    description:
+      "Experienced in professional communication, interpretation, and multilingual environments.",
+  },
+  {
     language: "Portuguese",
+    flag: "🇧🇷",
     level: "Developing",
     description:
-      "Actively studying Brazilian Portuguese.",
+      "Actively developing Brazilian Portuguese for professional communication and international collaboration.",
   },
 ];
-
 export const currentGoals: CurrentGoal[] = [
   {
     label: "Backend Architecture",

@@ -22,7 +22,7 @@ export default function CareerJourney() {
     >
       <div className="mx-auto max-w-[1550px] px-4 py-16 sm:px-6 lg:px-10 lg:py-24 xl:px-12">
         <SectionLabel>
-          7+ year engineering journey
+          5+ year engineering journey
         </SectionLabel>
 
         <h2 className="mt-6 text-4xl font-black tracking-[-0.045em] sm:text-5xl">

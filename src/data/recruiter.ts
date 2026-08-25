@@ -64,7 +64,7 @@ export const recruiterContent: Record<
 
   automation: {
     eyebrow: "AUTOMATION PROFILE",
-    title: "7+ years across HVAC and controls",
+    title: "5+ years across HVAC and controls",
     description:
       "A career progressing from HVAC installation into residential service, commercial service, industrial controls, BACnet and field diagnostics.",
     highlights: [
