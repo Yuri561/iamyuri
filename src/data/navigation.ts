@@ -5,6 +5,5 @@ export const navItems = [
   ["Expertise", "#expertise"],
   ["Controls", "#controls"],
   ["Projects", "#projects"],
-  ["Leadership", "#leadership"],
   ["Languages", "#languages"],
 ];

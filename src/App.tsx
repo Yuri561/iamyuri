@@ -11,7 +11,7 @@ import Footer from "./components/layout/Footer";
 import Navbar from "./components/layout/Navbar";
 import ScrollProgress from "./components/layout/ScrollProgress";
 import LanguagesSection from "./components/language/LanguagesSection";
-import LeadershipSection from "./components/leadership/LeadershipSection";
+// import LeadershipSection from "./components/leadership/LeadershipSection";
 import ProjectsSection from "./components/projects/ProjectsSection";
 import RecruiterMode from "./components/recruiter/RecruiterMode";
 
@@ -24,7 +24,7 @@ export default function App() {
 
       <Hero />
 
-      <RecruiterMode />
+      {/* <RecruiterMode /> */}
 
       <AboutSection />
 
@@ -32,15 +32,15 @@ export default function App() {
 
       <DiagnosticQuiz />
 
-      <ExpertiseSection />
+      {/* <ExpertiseSection /> */}
 
       <EquipmentExplorer />
 
       <ProjectsSection />
 
-      <LeadershipSection />
+      {/* <LeadershipSection /> */}
 
-      <LanguagesSection />
+      {/* <LanguagesSection /> */}
 
       <CurrentlyBuilding />
 {/* 
