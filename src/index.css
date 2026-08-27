@@ -19,3 +19,38 @@ html {
 .scene-section {
   scroll-snap-align: start;
 }
+
+.terminal-scrollbar {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(34, 211, 238, 0.5) rgba(255, 255, 255, 0.015);
+}
+
+.terminal-scrollbar::-webkit-scrollbar {
+  width: 9px;
+}
+
+.terminal-scrollbar::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.012);
+  border-left: 1px solid rgba(255, 255, 255, 0.03);
+}
+
+.terminal-scrollbar::-webkit-scrollbar-thumb {
+  background:
+    linear-gradient(
+      to bottom,
+      rgba(34, 211, 238, 0.65),
+      rgba(16, 185, 129, 0.35)
+    );
+
+  border-radius: 999px;
+  border: 2px solid #030707;
+}
+
+.terminal-scrollbar::-webkit-scrollbar-thumb:hover {
+  background:
+    linear-gradient(
+      to bottom,
+      rgba(103, 232, 249, 0.9),
+      rgba(52, 211, 153, 0.65)
+    );
+}
