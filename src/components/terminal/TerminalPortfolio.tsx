@@ -511,13 +511,15 @@ export default function TerminalPortfolio() {
   return (
     <section
       className="
-        relative
-        h-[100dvh]
-        w-screen
-        overflow-hidden
-        bg-[#010303]
-        font-mono
-        text-slate-300
+        terminal-shell
+    relative
+    h-[100dvh]
+    w-full
+    max-w-full
+    overflow-hidden
+    bg-[#010303]
+    font-mono
+    text-slate-300
       "
     >
       {/* Background */}
@@ -719,37 +721,40 @@ export default function TerminalPortfolio() {
         {/* Main output */}
 
         <div
-          ref={terminalRef}
-          onClick={() =>
-            inputRef.current?.focus()
-          }
-          className="
-            min-h-0
-            flex-1
-            overflow-y-auto
-            terminal-scrollbar
-            overscroll-contain
-            px-4
-            py-5
-            text-[11px]
-            leading-6
+  ref={terminalRef}
+  onClick={() =>
+    inputRef.current?.focus()
+  }
+  className="
+    terminal-scrollbar
+    min-h-0
+    min-w-0
+    flex-1
+    overflow-x-hidden
+    overflow-y-auto
+    overscroll-contain
 
-            sm:px-6
-            sm:text-[12px]
+    px-4
+    py-5
+    text-[11px]
+    leading-6
 
-            md:px-8
-            md:py-7
+    sm:px-6
+    sm:text-[12px]
 
-            lg:px-12
-            lg:text-[13px]
+    md:px-8
+    md:py-7
 
-            xl:px-16
+    lg:px-12
+    lg:text-[13px]
 
-            2xl:px-20
-            2xl:py-10
-            2xl:text-[14px]
-          "
-        >
+    xl:px-16
+
+    2xl:px-20
+    2xl:py-10
+    2xl:text-[14px]
+  "
+>
           {/* Opening */}
           <YuriSigniture/>
           <div

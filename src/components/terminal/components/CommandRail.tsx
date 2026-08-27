@@ -244,16 +244,24 @@ export default function CommandRail({
           spellCheck={false}
           placeholder="type a command..."
           className="
-            min-w-0
-            flex-1
-            border-none
-            bg-transparent
-            text-white
-            caret-cyan-300
-            outline-none
+  terminal-command-input
+  min-w-0
+  w-full
+  flex-1
+  border-none
+  bg-transparent
+  text-[16px]
+  text-white
+  caret-cyan-300
+  outline-none
 
-            placeholder:text-slate-800
-          "
+  placeholder:text-slate-800
+
+  sm:text-[12px]
+  lg:text-[13px]
+
+  disabled:opacity-50
+"
         />
       </form>
     </div>
