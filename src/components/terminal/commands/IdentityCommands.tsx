@@ -126,78 +126,56 @@ export function StoryCommand() {
         <StoryChapter
           number="01"
           title="It started with HVAC installation."
-          text="My technical foundation began with heating and cooling systems — equipment, wiring, piping, electrical circuits and mechanical systems."
+          text="My technical foundation began in the field — installing HVAC systems, working with ductwork, wiring thermostats, reading mechanical layouts and learning how equipment operates."
           delay={200}
         />
 
         <StoryChapter
           number="02"
-          title="Then came HVAC service."
-          text="Commercial service taught me troubleshooting. I had to understand why systems failed, isolate the problem and return equipment to operation."
+          title="Troubleshooting became the foundation."
+          text="Residential and commercial maintenance pushed me deeper into diagnostics. I learned to isolate electrical, mechanical and controls-related failures and restore systems to operation."
           delay={1300}
         />
 
         <StoryChapter
           number="03"
-          title="Technology became bigger than my job."
-          text="I founded Impact Team Technology as a community where coders, designers, cybersecurity enthusiasts and people interested in technology could learn and collaborate."
+          title="Leadership came next."
+          text="As a Lead Maintenance Technician, I managed service priorities, trained technicians and handled complex HVAC, electrical and building system issues while keeping daily operations moving."
           delay={2500}
         />
 
         <StoryChapter
           number="04"
-          title="Collaboration became real work."
-          text="Members began collaborating on websites and client projects, giving newer developers experience with requirements, teamwork, Git workflows and delivery."
+          title="HVAC evolved into automation."
+          text="I moved into factory and building controls, working with BACnet, VFDs, energy management systems, IP networking and control hardware — connecting mechanical systems to digital logic."
           delay={3900}
         />
 
         <StoryChapter
           number="05"
-          title="HVAC evolved into controls."
-          text="My current day job is Controls Technician — or the title I prefer, DDC Programmer — where software logic, controllers, networks and physical equipment all meet."
+          title="Controls became systems engineering."
+          text="Project support work exposed me to data centers and mobile switching facilities, where I configured and commissioned BAS/DDC systems using Distech Controls, JACE controllers, Automated Logic and Niagara Tridium."
           delay={5200}
         />
 
         <StoryChapter
           number="06"
-          title="Backend development became another layer."
-          text="Python, FastAPI, PostgreSQL and APIs let me apply the same systems thinking I learned in the field to software architecture and products."
+          title="Today, I program the building."
+          text="As a Controls Technician, I program, configure, commission and troubleshoot DDC/BAS systems across AHUs, RTUs, VAVs, boilers, heat pumps and VFDs while working across BACnet, Modbus and TCP/IP networks."
           delay={6600}
-          last
         />
 
-        <div
-          className="
-            mt-8
-            border
-            border-cyan-400/10
-            bg-cyan-400/[0.02]
-            p-5
-          "
-        >
-          <TypewriterText
-            text="I didn't leave the physical world for software. I learned to program it."
-            speed={16}
-            delay={8000}
-            className="
-              text-base
-              font-bold
-              text-white
-
-              sm:text-lg
-            "
-          />
-        </div>
-
-        <ContinueCommand
-          command="career"
-          delay={9100}
+        <StoryChapter
+          number="07"
+          title="Software became the next layer."
+          text="Through Impact Team Technology and my own development work, I expanded into Python, FastAPI, JavaScript, TypeScript, React, databases and APIs — applying the same systems thinking from controls to software."
+          delay={8000}
+          last
         />
       </div>
     </OutputBlock>
   );
 }
-
 /* =============================================================================
    STORY CHAPTER
 ============================================================================= */
@@ -286,45 +264,61 @@ export function CareerCommand() {
   return (
     <OutputBlock label="CAREER TRACE // SYSTEM EVOLUTION">
       <div className="mt-6 space-y-6">
+
         <CareerEntry
           number="01"
-          title="HVAC Installer"
-          text="Equipment installation, wiring, piping and learning how mechanical systems are physically assembled."
+          title="HVAC Installation"
+          text="Built my technical foundation installing HVAC equipment, ductwork, thermostats and low-voltage control wiring."
           delay={100}
         />
 
         <CareerEntry
           number="02"
-          title="Commercial HVAC Service"
-          text="Troubleshooting refrigeration, electrical systems and real equipment failures in the field."
+          title="Lead Maintenance Technician"
+          text="Advanced into HVAC, electrical and building systems troubleshooting while supervising technicians and managing daily service operations."
           delay={1100}
         />
 
         <CareerEntry
           number="03"
-          title="Impact Team Technology"
-          text="Founded a collaborative technology community for developers, designers, cybersecurity enthusiasts and people learning technology."
+          title="Factory Controls Technician"
+          text="Moved deeper into automation through commercial HVAC controls, BACnet networks, VFD programming, energy management systems and field diagnostics."
           delay={2200}
         />
 
         <CareerEntry
           number="04"
-          title="Controls Technician / DDC Programmer"
-          text="Building automation, BACnet networks, DDC logic, commissioning, AHUs, VAVs, RTUs, VFDs and field diagnostics."
-          delay={3500}
+          title="Project Support Engineer"
+          text="Delivered and commissioned BAS/DDC solutions for critical facilities using Distech Controls, JACE controllers, Automated Logic and Niagara Tridium."
+          delay={3400}
         />
 
         <CareerEntry
           number="05"
-          title="Backend Development"
-          text="Python, FastAPI, PostgreSQL, authentication, APIs, payments, automation and production applications."
-          delay={4800}
+          title="Controls Technician // DDC"
+          text="Program, commission and troubleshoot building automation systems across AHUs, RTUs, VAVs, boilers, heat pumps, VFDs, BACnet, Modbus and TCP/IP networks."
+          delay={4700}
         />
+
+        <CareerEntry
+          number="06"
+          title="Impact Team Technology"
+          text="Co-founded and lead a technology community focused on software development, cybersecurity, design, mentorship and collaborative technical projects."
+          delay={6000}
+        />
+
+        <CareerEntry
+          number="07"
+          title="Backend & Software Development"
+          text="Build applications with Python, FastAPI, PostgreSQL, JavaScript, TypeScript, React, REST APIs, authentication and database-driven architectures."
+          delay={7300}
+        />
+
       </div>
 
       <ContinueCommand
         command="impact"
-        delay={6100}
+        delay={8600}
       />
     </OutputBlock>
   );

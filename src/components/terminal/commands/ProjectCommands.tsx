@@ -38,7 +38,7 @@ export function ProjectsCommand() {
           type="AI Voice Platform"
           description="Voice-focused application exploring text-to-speech workflows, voice selection, generation, playback, exports and an interactive AI voice workspace."
           stack="Python / FastAPI / React / TypeScript / AI Audio"
-          url="https://readymyvoice.vercel.app/"
+          url="https://readymyvoice.com/"
           inspect="readymyvoice"
           delay={2600}
         />
@@ -336,7 +336,7 @@ export function ReadyMyVoiceCommand() {
 
         <div className="mt-6">
           <a
-            href="https://readymyvoice.vercel.app/"
+            href="https://readymyvoice.com/"
             target="_blank"
             rel="noreferrer"
             className="text-cyan-400 hover:text-cyan-200"

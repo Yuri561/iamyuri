@@ -505,7 +505,7 @@ export function ResumeCommand() {
 
       <div className="mt-4">
         <a
-          href="/resume.pdf"
+          href="/myres.pdf"
           target="_blank"
           rel="noreferrer"
           className="text-cyan-400 hover:text-cyan-200"
