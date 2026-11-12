@@ -17,7 +17,7 @@ export function WhoAmICommand() {
       <div className="mt-5 max-w-5xl">
         <div>
           <TypewriterText
-            text='Houbenove "Yuri" Pierre-Louis'
+            text='Yuri Pierre-Louis'
             speed={22}
             className="
               text-xl

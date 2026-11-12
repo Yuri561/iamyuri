@@ -785,7 +785,7 @@ export default function TerminalPortfolio() {
 
             <div className="mt-6">
               <TypewriterText
-                text='Houbenove "Yuri" Pierre-Louis'
+                text="Yuri Pierre-Louis"
                 delay={1500}
                 speed={28}
                 className="
